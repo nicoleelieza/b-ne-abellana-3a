@@ -12,6 +12,5 @@ model Post {
   id        Int      @default(autoincrement()) @id
   title     String
   content   String?
-  published Boolean? @default(false)
   
-}
+    }
